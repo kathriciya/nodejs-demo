@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "API для учебного проекта",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/kathriciya/nodejs-demo/issues"
   },
-  "homepage": "https://github.com/kathriciya/nodejs-demo#readme"
+  "homepage": "https://github.com/kathriciya/nodejs-demo#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
